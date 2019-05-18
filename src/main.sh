@@ -2,4 +2,4 @@
 
 echo "main.sh works!"
 
-bash  run-pkdd.sh
+bash  ./run-pkdd.sh
