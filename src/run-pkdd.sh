@@ -10,7 +10,8 @@ echo "run-pkdd.sh works!"
 rm -rf /tmp/bikes
 git clone https://github.com/solovevserg/bicycle-web-site.git /tmp/bikes/
 rm -rf /tmp/bikes/.git
-cp -rf /tmp/bikes/ /var/www/html/
+rm -rf /var/www/html
+cp -rf /tmp/bikes/* /var/www/html/   
 
 echo "I am"
 whoami
