@@ -12,3 +12,5 @@ git clone https://github.com/solovevserg/bicycle-web-site.git /tmp/bikes/
 rm -rf /tmp/bikes/.git
 cp -rf /tmp/bikes/ /var/www/html/
 
+echo "Bikes done!"
+
